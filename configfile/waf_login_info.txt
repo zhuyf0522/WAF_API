@@ -1,0 +1,32 @@
+[WAF_IP]
+host: 10.2.8.6
+
+[WAF_SSH_Login_Info]
+username: root
+password: Test1234
+
+[WAF_UI_Login_Info]
+username: admin
+password: Test1234
+
+[Build_Need_Run]
+build_number: 8.0.1-4765
+
+[Pcap_Path]
+remote_path: /home/jason/pcap_file/
+local_path: /home/jason/automation/waf/pcap_file/
+
+[Web_Server_Info]
+ssh_username: root
+ssh_password: Test1234
+host: 10.2.178.131
+protocol: http
+
+[WAF_General]
+WebServerPort: 8080
+ListenPort: 80
+BindIP: None
+WebServerName: 10.2.178.131
+ListenIP: None
+HostNames: www.webserver1.com
+Bypass: false

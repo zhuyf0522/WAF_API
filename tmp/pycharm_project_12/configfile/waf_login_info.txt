@@ -1,0 +1,22 @@
+[Host_IP]
+host: 10.2.8.7
+
+[WAF_SSH_Login_Info]
+username: root
+password: Test1234
+
+[WAF_UI_Login_Info]
+username: admin
+password: Test1234
+
+[Build_Need_Run]
+build_number: 8.0.2-4794
+
+[Waf_General]
+WebServerPort: 80
+ListenPort: 80
+BindIP: None
+WebServerName: 10.2.8.3
+ListenIP: None
+HostNames: www.htfc.com,www.sohu.com,www.sina.com.cn
+Bypass: false
